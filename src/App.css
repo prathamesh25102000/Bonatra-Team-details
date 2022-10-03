@@ -1,0 +1,290 @@
+.nav-link {
+  font-weight: 500;
+}
+
+.nav-item :hover{
+  text-decoration: underline;
+  color: green !important;
+  font-weight: 700 !important;
+}
+
+.i1 :hover{
+  background-color: rgb(106, 203, 53) !important;
+  color: blue !important;
+  text-decoration: none !important;
+}
+
+.banner{
+  min-height: 400px;
+    background-color: #0c1940;
+    
+    background-image: url("https://www.venwiz.com/images/banner/about-us.png");
+    padding-bottom: 30px!important;
+    padding-top: 60px!important;
+    position: relative;
+    width: 100%;
+    color: #43baff;
+    font-weight: 500;
+    background-size: cover; 
+}
+
+.cont{
+  overflow: hidden;
+  max-width: 1200px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.abt{
+  color: #47c882;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 0;
+  margin-bottom: 20px;
+  font-family: Poppins,sans-serif;
+  
+  line-height: 1.2;
+  margin: 0 0 20px;
+  display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.para{
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 34px;
+  font-size: 28px;
+  width: 64%;
+  font-weight: 700;
+  margin: 0 0 20px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;  
+}
+
+
+
+
+
+.founder-container {
+  display: flex;
+  align-items: center;
+}
+
+.founder-container .team-linkedin {
+  position: relative;
+}
+
+.founder-container .founder-img {
+  min-width: 250px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.founder-container .about-content {
+  padding: 0 30px;
+}
+
+.founder-container .founder-name {
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+  padding-bottom: 14px;
+  line-height: 1.2;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+
+@media (min-width: 120px) and (max-width: 1024px)
+{.founder-container .founder-name span {
+    font-weight: 400;
+}
+}
+.founder-container .founder-name span {
+  display: block;
+  padding-top: 10px;
+  color: #0c1940;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.i{
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+@media (min-width: 120px) and (max-width: 1024px){
+.founder-container .about-content {
+ padding: 10px 0;
+}
+}
+
+@media (min-width: 120px) and (max-width: 1024px)
+{.founder-container {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+}
+
+@media (min-width: 120px) and (max-width: 1024px)
+{.founder-container .founder-name {
+    font-size: 20px;
+    font-weight: 700;
+}
+}
+
+.c1{
+  margin: 0;
+  padding: 0;
+  font-size: 30px !important;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0px !important;
+  font-family: Poppins,sans-serif;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+@media (min-width: 120px) and (max-width: 1024px)
+{.c1 {
+    text-transform: uppercase;
+}
+}
+
+.c2{
+  margin: 20px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 120px) and (max-width: 1024px)
+{.career-wrapper {
+    flex-wrap: wrap;
+}
+}
+
+.career-wrapper {
+    display: flex !important;
+    width: 100%;
+    justify-content: space-between !important;
+}
+
+@media (min-width: 120px) and (max-width: 1024px)
+{.career-col {
+    width: 100%;
+}
+}
+
+@media (min-width: 120px) and (max-width: 1024px)
+{.job-card {
+    margin-bottom: 15px;
+}
+}
+
+.job-card {
+ 
+    padding: 20px;
+    margin-bottom: 28px;
+}
+
+.card-title {
+  display: flex;
+  line-height: normal;
+  color: #212121;
+  align-items: center;
+  margin-bottom: 0;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.job-card .job-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0c1940;
+  line-height: normal;
+}
+
+.job-card .job-title span {
+  font-size: 18px;
+  font-weight: 400;
+  display: block;
+  color: #0c1940;
+}
+
+.p1{
+  text-align: center !important;
+  font-size: larger;
+  font-weight: 600;
+  min-width: 150px;
+  border: 0mm;
+  background-color: white;
+}
+
+.p1:hover{
+  color: #47c882;
+  text-decoration: underline;
+
+}
+
+.allpics{
+  margin-top: 20px;
+  display: grid !important; 
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr)) !important; 
+  justify-content: center !important; 
+}
+
+.pic{
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+
+.ft{
+  color: aliceblue;
+}
+
+.fa-solid, .fta{
+  color: #43baff;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.fl{
+  color: rgb(154, 150, 150);
+  text-align: center;
+}
+
+.accordion-header{
+  background-color: #0a1739 !important;
+}
+
+.accordion-item{
+  border: 1px solid rgb(234, 225, 225);
+}
+
+.heading{
+  background-color: #fff !important;
+}
+
+.para{
+  background-color: none !important;
+}
